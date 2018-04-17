@@ -1,0 +1,75 @@
+.main {
+    overflow: hidden;
+}
+
+.search-bar {
+    margin: 20px;
+    text-align: center;
+    overflow:hidden; 
+    height:150px;
+}
+
+.search-bar input {
+    width: 75%;
+}
+
+.radio {
+    display: inline-block;
+}
+
+.country-details {
+    overflow:auto; 
+    position:absolute; 
+    top:150px; 
+    left:0; 
+    bottom:0;
+}
+.country-details img {
+    max-width: 80%;
+    border: 1px solid #000;
+}
+.country-item img {
+    max-width: 64px;
+}
+.country-item .details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;   
+}
+
+.center {
+    margin: 10px;
+    text-align: center;
+}
+
+.map {
+    margin: 10px;
+    padding: 20px;
+}
+
+.list-group {
+    overflow:auto; 
+    position:absolute; 
+    top:150px; 
+    right: 0; 
+    bottom:0;
+}
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: #eee;
+}
+
+@media screen and (max-width: 768px) {
+
+    .country-details {
+        overflow:auto; 
+        position: relative; 
+    }
+    .list-group {
+        overflow:auto; 
+        position:relative; 
+    }
+}
